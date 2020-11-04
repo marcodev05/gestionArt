@@ -1,0 +1,95 @@
+
+body {
+    background-color: rgb(116, 187, 116);
+
+}
+.container{
+    
+    padding-top: 20px;
+    text-align: center;
+    height: 100%;
+}
+hr {
+    width: 10%;
+    border-style: dotted;
+    border-width: 8px 0 0;
+    color: gray;
+    
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+/*article*/
+.elem {
+    text-align: justify;
+
+}
+
+article{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    
+}
+h4 {
+    color: red;
+    text-align: left;
+}
+
+
+
+
+/*menu*/
+.menu{
+    text-align: left;
+    padding: 0%;
+    background-color: rgb(46, 39, 39);
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 100;
+
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;   
+    
+}
+.menu ul li {
+    width: 100px;
+    padding: 10px;
+    display: inline-block;
+    background-color: rgb(46, 39, 39);
+    text-align: center;
+}
+
+.menu ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu ul li a{
+    text-decoration: none; 
+    color: white; 
+    
+}
+.menu ul ul{
+    position: absolute;
+    opacity: 0;
+    transition: all 0.3s;
+    visibility: hidden;
+}
+.menu ul ul li{
+    display: block;
+}
+
+/*conteneur*/
+
+.container2{
+    background-color: white;
+    height: 100%;
+    display: none;
+}
